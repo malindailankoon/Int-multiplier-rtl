@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.1 2025.01, Jan 17 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/sim
+T_opt
+!s110 1786367686
+VbEVJ5N52^=H>3Ro[FM@JY2
+04 7 4 work add4_tb fast 0
+=1-64d69afbd2d1-6a79cec4-3c6-6718
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U6 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0 defaultOptions 1107174692
+n@_opt
+OL;O;2025.1;82
+vadd4
+Z2 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z3 !s110 1786367684
+!i10b 1
+!s100 SSOO4]D1<_<?^JX_i33G50
+I<=gG9]]LkIDBBWJ]KlQz:1
+S1
+R1
+w1786352130
+8C:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/src/add4.sv
+FC:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/src/add4.sv
+!i122 0
+L0 1 42
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.1;82
+r1
+!s85 0
+31
+Z6 !s108 1786367684.000000
+Z7 !s107 C:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/tb/add4_tb.sv|
+Z8 !s90 -sv|-work|work|+libext+.sv|-y|C:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/src|C:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/tb/add4_tb.sv|
+!i113 0
+Z9 o-sv -work work +libext+.sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -sv -work work +libext+.sv -y C:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0 defaultOptions 1085216056
+vadd4_tb
+2C:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/tb/add4_tb.sv
+R2
+R3
+!i10b 1
+!s100 4<eN9MUbOzO`H0<K1dB8B3
+Ion]T8bXgj=UC2JJhzOOT:2
+S1
+R1
+w1786367677
+8C:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/tb/add4_tb.sv
+FC:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/tb/add4_tb.sv
+!i122 0
+L0 3 105
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vfa
+R2
+R3
+!i10b 1
+!s100 7[<lOaGOLFE@QEU1CIj[W3
+IHCjNcX:m?69_km6na2JY72
+S1
+R1
+w1785764865
+8C:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/src/fa.sv
+FC:/Users/immkb/Desktop/fpga_projects/integer_multiplier/Int-multiplier-rtl/configurable_multiplier/src/fa.sv
+!i122 0
+L0 1 12
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
