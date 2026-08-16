@@ -1,11 +1,11 @@
 module ha(
     input logic a,
     input logic b,
-    output logic s,
-    output logic cout
+    output logic sum,
+    output logic carry
 );
 
-    assign s = a^b;
-    assign cout = a&b;
+    assign sum = a^b;
+    assign carry = a&b;
 
 endmodule

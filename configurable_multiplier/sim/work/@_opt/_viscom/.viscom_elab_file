@@ -1,1 +1,1 @@
-C:/altera_pro/25.1.1/questa_fse/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 1081632 work.add4_tb -quiet -auto_acc_if_foreign -work work -allow_unnamed -o _opt -id 1-64d69afbd2d1-6a79cec4-3c6-6718
+C:/altera_pro/25.1.1/questa_fse/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 79036416 work.tb_mult_128 -quiet -auto_acc_if_foreign -work work -allow_unnamed -o _opt -id 1-64d69afbd2d1-6a823004-12b-5970

@@ -1,12 +1,12 @@
 module fa(
     input logic a,
     input logic b,
-    input logic cin,
-    output logic s,
-    output logic cout
+    input logic c,
+    output logic sum,
+    output logic carry
 );
 
-    assign s = a^b^cin;
-    assign cout = (a&b)|(cin&(a^b));
+    assign sum = a^b^c;
+    assign carry = (a&b)|(c&(a^b));
 
 endmodule

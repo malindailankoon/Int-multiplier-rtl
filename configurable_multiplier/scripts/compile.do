@@ -36,7 +36,7 @@ vlib work
 vmap work work
 
 # expr evalueats a boolean expression
-set ok [expr {![catch {vlog -sv -work work +libext+.sv -y $SRC $SRC/add4.sv} msg]}]
+set ok [expr {![catch {vlog -sv -work work +libext+.sv -y $SRC $SRC/mult_128.sv} msg]}]
 
 # +libext+.sv: Specifies the exact file extension (.sv) the compiler must append to module names when searching for uncompiled sub-modules.
 # -y $SRC: Specifies the directory path (stored in $SRC) where the compiler will actively search for the missing sub-module files.

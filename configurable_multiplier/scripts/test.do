@@ -22,7 +22,7 @@ vlib work
 vmap work work
 
 
-set ok [expr {![catch {vlog -sv -work work +libext+.sv -y $SRC $TB/add4_tb.sv} msg]}]
+set ok [expr {![catch {vlog -sv -work work +libext+.sv -y $SRC $TB/tb_mult_128.sv} msg]}]
 
 
 catch {file delete -force $ROOT/transcript}
@@ -31,7 +31,7 @@ catch {file delete -force $ROOT/transcript}
 if {$ok} {
     puts "=== COMPILE OK ==="
 
-    vsim work.add4_tb
+    vsim work.tb_mult_128
 
     run -all
 
