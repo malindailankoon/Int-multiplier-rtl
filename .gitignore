@@ -1,1 +1,4 @@
-configurable_multiplier/sim
+simulations/sim
+quartus_22_1_project/db
+quartus_22_1_project/incremental_db
+quartus_22_1_project/output_files

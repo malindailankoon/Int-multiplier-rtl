@@ -1,0 +1,18 @@
+module mult_128_top(
+	input logic clk, rst,
+	input logic [127:0] a, b,
+	output logic [255:0] out
+);
+
+	logic [255:0] temporary;
+	mult_128 u_mult(.a(a), .b(b), .out(temporary));
+	
+	always_ff @(posedge clk) begin
+		if (rst) begin
+			out <= '0;
+		end else begin
+			out <= temporary;
+		end
+	end
+
+endmodule
