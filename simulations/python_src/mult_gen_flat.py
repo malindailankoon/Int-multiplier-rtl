@@ -104,8 +104,13 @@ def generate_dadda_multiplier():
         else:
             final_assigns.append(f"    assign final_op_a[{c}] = 1'b0;")
             final_assigns.append(f"    assign final_op_b[{c}] = 1'b0;")
-            
-    final_assigns.append("\n    assign out = final_op_a + final_op_b;")
+
+
+    # testing the system without any final adder structure       
+    # final_assigns.append("\n    assign out = final_op_a + final_op_b;")
+
+    # kogge stone adder for the final adder
+    final_assigns.append("\n    kogge_stone_256 u_cpa (.a(final_op_a), .b(final_op_b), .sum(out));")
 
     # 6. Write everything to the SystemVerilog file
     with open("mult_128.sv", "w") as fh:

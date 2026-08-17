@@ -24735,5 +24735,5 @@ module mult_128(
     assign final_op_a[255] = 1'b1;
     assign final_op_b[255] = 1'b0;
 
-    assign out = final_op_a + final_op_b;
+    kogge_stone_256 u_cpa (.a(final_op_a), .b(final_op_b), .sum(out));
 endmodule
